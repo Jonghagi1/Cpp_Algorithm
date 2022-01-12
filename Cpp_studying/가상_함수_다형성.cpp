@@ -14,7 +14,7 @@ public:
 class B : public A
 {
 public:
-	virtual void print()
+	virtual void print() override // override 선언
 	{
 		cout << "B" << endl;
 	}
@@ -23,7 +23,7 @@ public:
 class C : public B
 {
 public:
-	virtual void print()
+	virtual void print()  // final // final 은 밑에 함수들은 override를 못하게 막는 기능
 	{
 		cout << "C" << endl;
 	}
