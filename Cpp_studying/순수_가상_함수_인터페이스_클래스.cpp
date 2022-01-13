@@ -42,8 +42,8 @@ int main()
 	FileErrorLog file_log;
 	ConsolErrorLog consol_log;
 
-	doSomething(file_log);
-	doSomething(consol_log);
+	doSomething(file_log); //Writing error to a file
+	doSomething(consol_log); // Printing error to a file
 
 	return 0;
 }
