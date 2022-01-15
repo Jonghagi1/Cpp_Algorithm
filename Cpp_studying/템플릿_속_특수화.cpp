@@ -2,7 +2,7 @@
 
 using namespace std;
 
-template <class T, int size>
+template <typename T, int size>
 class StaticArray_BASE
 {
 private:
@@ -29,7 +29,7 @@ public:
 	}
 };
 
-template <class T, int size>
+template <typename T, int size>
 class StaticArray : public StaticArray_BASE<T, size>
 {
 
@@ -42,7 +42,7 @@ public:
 	void print()
 	{
 		for (int count = 0; count < size; count++)
-		{
+		{ 
 			cout << (*this)[count];
 		}
 		cout << endl;
