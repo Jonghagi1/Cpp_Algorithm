@@ -24,7 +24,7 @@ int  main(
 		scanf("%d", &arr[i]);
 	}
 
-	for (int i = 0; i < n; i++)
+	for (int i = 1; i < n; i++)
 	{
 		temp = arr[i];
 		for (j = i - 1; j >= 0; j--)
