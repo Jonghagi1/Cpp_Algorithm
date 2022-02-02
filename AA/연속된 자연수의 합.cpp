@@ -27,7 +27,7 @@ int  main()
 
 		if (a%b==0)
 		{
-			for ( i = 1; i < b; i++)
+			for ( i = 1; i < b; i++) // i++ 한 뒤 i < b 조건식 수행
 			{
 				printf("%d + ", (a / b) + i);
 			}
