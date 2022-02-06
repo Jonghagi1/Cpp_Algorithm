@@ -25,11 +25,9 @@ int main()
 {
 	//freopen("input.txt", "rt", stdin);// "input.txt"
 	//input
-	//11
 
 	D(1);
 
 	return 0;
 }
 //output
-//1011
