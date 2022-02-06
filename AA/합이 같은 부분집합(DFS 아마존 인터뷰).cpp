@@ -33,6 +33,7 @@ void DFS(int L, int sum)
 
 //input
 //6
+//1 3 5 6 7 10
 int main()
 {
 	//freopen("input.txt", "rt", stdin);// "input.txt"
@@ -59,4 +60,4 @@ int main()
 	return 0;
 }
 //output
-//1 3 5 6 7 10
+//YES
